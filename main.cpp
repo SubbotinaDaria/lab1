@@ -15,7 +15,7 @@ int main() {
     float a2_f = pow(a_f,2.0f); 
     float b2_f = pow(b_f,2.0f);
     float c_f = 6*a2_f*b2_f;
-    float sum_f = a4_f + z_f + c_f;
+    float sum_f = a4_f - z_f + c_f;
     float chisl_f = sab4_f - sum_f;
     float b3_f = pow(b_f, 3.0f);
     float b4_f = pow(b_f, 4.0f);
@@ -35,7 +35,7 @@ int main() {
     double a2_d = pow(a_d,2.0);
     double b2_d = pow(b_d,2.0);
     double c_d = 6*a2_d*b2_d;
-    double sum_d = a4_d + z_d + c_d;
+    double sum_d = a4_d - z_d + c_d;
     double chisl_d = sab4_d - sum_d;
     double b3_d = pow(b_d, 3.0);
     double b4_d = pow(b_d, 4.0);
@@ -45,11 +45,6 @@ int main() {
     cout <<"Результат с double:"<<rezult_d<<endl;
     return 0;
 }
-//1 - 3.2768e+13
-
-//2 - -30517.6
-
-
 
 
 
